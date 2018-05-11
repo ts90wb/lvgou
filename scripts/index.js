@@ -15,5 +15,10 @@
             'nextSelector': $('#next_btn'),
             'nextText': ''
         });
+        $('.lawyer-slider .bxslider').bxSlider({
+            'pager': false,
+            'stopAutoOnClick': true,
+            'autoHover': true
+        });
     });
 })(jQuery);
