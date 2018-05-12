@@ -1,13 +1,13 @@
 .header {
     width: 100%;
     background: #242424;
-    height: 32px;
+    height: 2.34261vw;
 }
 
 .header p,
 .header a {
     color: #fff;
-    font-size: 12px;
+    font-size: 0.87848vw;
 }
 
 .header a:hover {
@@ -16,7 +16,7 @@
 
 .header .header-container {
     display: flex;
-    width: 1200px;
+    width: 87.84773vw;
     height: 100%;
     margin: 0 auto;
     justify-content: space-between;
@@ -29,17 +29,17 @@
 .header-container .login-section {
     display: flex;
     height: 100%;
-    width: 108px;
+    width: 7.9063vw;
     align-items: center;
     justify-content: space-between;
 }
 
 .header-container .telephone {
-    width: 300px;
+    width: 21.96193vw;
     height: 100%;
-    margin-left: 175px;
-    line-height: 32px;
-    font-size: 16px;
+    margin-left: 12.81113vw;
+    line-height: 2.34261vw;
+    font-size: 1.1713vw;
 }
 
 .header-container .header-nav {
@@ -48,11 +48,11 @@
 }
 
 .header-nav a {
-    height: 14px;
-    padding: 0 14px;
+    height: 1.02489vw;
+    padding: 0 1.02489vw;
     border-right: 1px solid #fff;
     text-align: center;
-    line-height: 14px;
+    line-height: 1.02489vw;
 }
 
 .header-nav a:last-child {
@@ -68,8 +68,8 @@
 }
 
 .content .service-nav {
-    width: 1200px;
-    margin: 15px auto 0;
+    width: 87.84773vw;
+    margin: 1.0981vw auto 0;
 }
 
 .service-nav .top {
@@ -79,38 +79,38 @@
 
 .service-nav .top h1 a {
     display: block;
-    width: 200px;
-    height: 87px;
+    width: 14.64129vw;
+    height: 6.36896vw;
     background: url('../images/content/service-nav/nav_logo.png') no-repeat center;
 }
 
 .service-nav .searchbar {
-    width: 860px;
-    height: 75px;
+    width: 62.95754vw;
+    height: 5.49048vw;
     box-sizing: border-box;
 }
 
 .service-nav .searchbar .search-title {
     display: block;
-    width: 100px;
-    height: 30px;
+    width: 7.32064vw;
+    height: 2.19619vw;
     color: #fff;
     background: #28a449;
     text-align: center;
-    line-height: 30px;
+    line-height: 2.19619vw;
 }
 
 .service-nav .searchbar .search {
     display: flex;
     width: 100%;
-    padding-right: 80px;
+    padding-right: 5.85652vw;
 }
 
 .searchbar .search input {
-    width: 525px;
-    height: 45px;
-    line-height: 18px;
-    padding: 7px 15px;
+    width: 38.43338vw;
+    height: 3.29429vw;
+    line-height: 1.31772vw;
+    padding: 0.51245vw 1.0981vw;
     box-sizing: border-box;
     border: 1px solid #28a449;
 }
@@ -121,10 +121,10 @@
 
 .searchbar .search a {
     display: flex;
-    width: 80px;
-    height: 45px;
+    width: 5.85652vw;
+    height: 3.29429vw;
     text-align: center;
-    line-height: 45px;
+    line-height: 3.29429vw;
     box-sizing: border-box;
     background-color: #28a449;
     align-items: center;
@@ -132,46 +132,46 @@
 }
 
 .searchbar .search a i {
-    width: 22px;
-    height: 32px;
-    background: url('../images/content/grey_together.png') no-repeat -128px 0;
+    width: 1.61054vw;
+    height: 2.34261vw;
+    background: url('../images/content/grey_together.png') no-repeat -9.37042vw 0;
 }
 
 .service-nav .bottom {
     position: relative;
     display: flex;
-    margin-top: 10px;
+    margin-top: 0.73206vw;
     justify-content: flex-end;
 }
 
 .service-nav .bottom .all-service {
     position: absolute;
     left: 0;
-    width: 200px;
+    width: 14.64129vw;
     z-index: 1000;
 }
 
 .bottom .all-service .title {
-    padding: 0 20px;
-    line-height: 35px;
+    padding: 0 1.46413vw;
+    line-height: 2.56223vw;
     color: #28a449;
     border: 1px solid #28a449;
     border-bottom: none;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1.1713vw;
 }
 
 .bottom .all-service .service-detail {
     position: relative;
-    height: 450px;
+    height: 32.9429vw;
     background: rgba(0, 0, 0, .5) url('../images/content/service-nav/left_logo.png') no-repeat center 90%;
 }
 
 .bottom .all-service .item {
-    padding: 0 30px 0 20px;
-    width: 200px;
-    height: 75px;
-    line-height: 75px;
+    padding: 0 2.19619vw 0 1.46413vw;
+    width: 14.64129vw;
+    height: 5.49048vw;
+    line-height: 5.49048vw;
     box-sizing: border-box;
     cursor: pointer;
     color: #f5f5f5;
@@ -194,29 +194,29 @@
 }
 
 .service-detail .item .item-title span {
-    width: 32px;
-    height: 32px;
+    width: 2.34261vw;
+    height: 2.34261vw;
     background: url('../images/content/grey_together.png') no-repeat 0 0;
 }
 
 .service-detail .item:nth-child(2) .item-title span {
-    background-position-x: -27px;
+    background-position-x: -1.97657vw;
 }
 
 .service-detail .item:nth-child(3) .item-title span {
-    background-position-x: -59px;
+    background-position-x: -4.31918vw;
 }
 
 .service-detail .item:nth-child(4) .item-title span {
-    background-position-x: -95px;
+    background-position-x: -6.95461vw;
 }
 
 .service-detail .item .item-title h3 {
-    font-size: 16px;
+    font-size: 1.1713vw;
 }
 
 .service-detail .item .item-title i {
-    font-size: 14px;
+    font-size: 1.02489vw;
     color: #ddd;
 }
 
@@ -224,10 +224,10 @@
     display: none;
     position: absolute;
     top: 0;
-    left: 200px;
-    width: 1000px;
-    height: 450px;
-    padding: 40px 100px 0 0;
+    left: 14.64129vw;
+    width: 73.20644vw;
+    height: 32.9429vw;
+    padding: 2.92826vw 7.32064vw 0 0;
     border: 1px solid #28a449;
     border-left: none;
     box-sizing: border-box;
@@ -237,27 +237,27 @@
 
 .service-detail .item .item-detail li {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 2.92826vw;
 }
 
 .item-detail h4 {
-    width: 125px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 16px;
+    width: 9.15081vw;
+    height: 1.46413vw;
+    line-height: 1.46413vw;
+    font-size: 1.1713vw;
     text-align: center;
 }
 
 .item-detail .service-link {
     display: flex;
-    width: 770px;
+    width: 56.36896vw;
     flex-wrap: wrap;
 }
 
 .item-detail .service-link a {
-    height: 20px;
-    line-height: 20px;
-    padding: 0 30px 20px 0;
+    height: 1.46413vw;
+    line-height: 1.46413vw;
+    padding: 0 2.19619vw 1.46413vw 0;
 }
 
 .item-detail .service-link a:hover {
@@ -270,16 +270,16 @@
 
 .service-nav .bottom .nav {
     display: flex;
-    width: 880px;
+    width: 64.42167vw;
 }
 
 .service-nav .bottom .nav a {
     display: block;
-    height: 36px;
-    padding: 0 30px;
-    font-size: 16px;
+    height: 2.63543vw;
+    padding: 0 2.19619vw;
+    font-size: 1.1713vw;
     color: #666;
-    line-height: 36px;
+    line-height: 2.63543vw;
 }
 
 .service-nav .bottom .nav a.active {
@@ -295,21 +295,21 @@
 }
 
 .bx-controls .bx-controls-direction a {
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    border: 4px solid #eee;
+    width: 1.46413vw;
+    height: 1.46413vw;
+    margin-left: 1.0981vw;
+    border: 0.29283vw solid #eee;
     transform: rotate(45deg);
 }
 
 .bx-controls .bx-controls-direction a.bx-prev {
-    margin-left: 15px;
+    margin-left: 1.0981vw;
     border-top: none;
     border-right: none;
 }
 
 .bx-controls .bx-controls-direction a.bx-next {
-    margin-right: 15px;
+    margin-right: 1.0981vw;
     border-bottom: none;
     border-left: none;
 }
@@ -317,19 +317,19 @@
 .pioneer-service {
     width: 100%;
     background: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 3.66032vw;
 }
 
 .pioneer-service .pioneer-service-container {
-    width: 1200px;
+    width: 87.84773vw;
     margin: 0 auto;
 }
 
 .pioneer-service-container h3 {
-    height: 80px;
-    line-height: 80px;
+    height: 5.85652vw;
+    line-height: 5.85652vw;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.75695vw;
 }
 
 .pioneer-service-container #service {
@@ -337,25 +337,25 @@
 }
 
 #service ul {
-    width: 1140px;
+    width: 83.45534vw;
     margin: 0 auto;
 }
 
 .pioneer-service-container #service,
 #service ul {
     position: relative;
-    height: 350px;
+    height: 25.62225vw;
 }
 
 #service .btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 25px;
-    height: 25px;
+    width: 1.83016vw;
+    height: 1.83016vw;
     transform: rotate(45deg);
-    border: 6px solid rgb(200, 200, 200);
-    border-radius: 3px;
+    border: 0.43924vw solid rgb(200, 200, 200);
+    border-radius: 0.21962vw;
     z-index: 1000;
     cursor: pointer;
 }
@@ -391,17 +391,17 @@
 
 #service ul li .service-content {
     display: flex;
-    height: 285px;
+    height: 20.86384vw;
     box-sizing: border-box;
-    padding: 25px 20px;
+    padding: 1.83016vw 1.46413vw;
     flex-direction: column;
     align-items: center;
 }
 
 .service-content .icon {
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 5.85652vw;
+    height: 5.85652vw;
     border-radius: 50%;
     background: #fff;
     justify-content: center;
@@ -409,90 +409,90 @@
 }
 
 #service ul .service-2 span {
-    background-position: 0 -228px;
+    background-position: 0 -16.69107vw;
 }
 
 #service ul .service-3 span {
-    background-position: -2px -300px;
+    background-position: -0.14641vw -21.96193vw;
 }
 
 #service ul .service-4 span {
-    height: 34px;
-    background-position: 0 -266px;
+    height: 2.48902vw;
+    background-position: 0 -19.47291vw;
 }
 
 #service ul .service-5 span {
-    height: 34px;
-    background-position: 0 -190px;
+    height: 2.48902vw;
+    background-position: 0 -13.90922vw;
 }
 
 #service ul .service-1.actived span {
-    background-position: -35px 0;
+    background-position: -2.56223vw 0;
 }
 
 #service ul .service-2.actived span {
-    background-position: -35px -228px;
+    background-position: -2.56223vw -16.69107vw;
 }
 
 #service ul .service-3.actived span {
-    background-position: -35px -300px;
+    background-position: -2.56223vw -21.96193vw;
 }
 
 #service ul .service-4.actived span {
-    background-position: -35px -266px;
+    background-position: -2.56223vw -19.47291vw;
 }
 
 #service ul .service-5.actived span {
-    background-position: -35px -190px;
+    background-position: -2.56223vw -13.90922vw;
 }
 
 .service-content .icon span {
-    width: 35px;
-    height: 38px;
+    width: 2.56223vw;
+    height: 2.78184vw;
     background: url('../images/content/fuwu_together.png') 0 0;
 }
 
 .service-content h4 {
-    height: 48px;
-    line-height: 48px;
-    font-size: 18px;
+    height: 3.51391vw;
+    line-height: 3.51391vw;
+    font-size: 1.31772vw;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 1.0981vw;
 }
 
 .service-content p {
-    height: 44px;
-    font-size: 12px;
-    line-height: 22px;
+    height: 3.22108vw;
+    font-size: 0.87848vw;
+    line-height: 1.61054vw;
     color: #666;
     text-align: center;
-    padding: 0 5px;
+    padding: 0 0.36603vw;
 }
 
 .service-content em {
-    font-size: 18px;
-    line-height: 38px;
+    font-size: 1.31772vw;
+    line-height: 2.78184vw;
     color: #28a449;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.73206vw;
 }
 
 .content .recommend {
     width: 100%;
     background: #f2f2f2;
-    padding-bottom: 25px;
+    padding-bottom: 1.83016vw;
 }
 
 .recommend .recommend-container {
-    width: 1200px;
+    width: 87.84773vw;
     margin: 0 auto;
 }
 
 .recommend-container h3 {
-    height: 110px;
-    line-height: 110px;
+    height: 8.05271vw;
+    line-height: 8.05271vw;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.75695vw;
 }
 
 .recommend-container a {
@@ -504,13 +504,13 @@
 }
 
 .recommend-container a h4 {
-    font-size: 18px;
-    line-height: 38px;
+    font-size: 1.31772vw;
+    line-height: 2.78184vw;
 }
 
 .recommend-container a p {
-    font-size: 12px;
-    line-height: 32px;
+    font-size: 0.87848vw;
+    line-height: 2.34261vw;
     color: #666;
 }
 
@@ -527,28 +527,28 @@
 
 .recommend-container a .describe span {
     display: block;
-    font-size: 16px;
-    line-height: 64px;
+    font-size: 1.1713vw;
+    line-height: 4.68521vw;
     color: #f63939;
 }
 
 .recommend-container a span em {
-    font-size: 24px;
+    font-size: 1.75695vw;
 }
 
 .recommend-container .recommend-top,
 .recommend-container .recommend-down {
     display: flex;
     width: 100%;
-    height: 222px;
-    margin-bottom: 15px;
+    height: 16.25183vw;
+    margin-bottom: 1.0981vw;
     justify-content: space-between;
 }
 
 .recommend-top a:nth-child(1) {
-    width: 390px;
-    margin-right: 15px;
-    padding: 30px;
+    width: 28.55051vw;
+    margin-right: 1.0981vw;
+    padding: 2.19619vw;
 }
 
 .recommend-top a .picture,
@@ -559,34 +559,34 @@
 }
 
 .recommend-top a:nth-child(1) .picture span {
-    width: 110px;
-    height: 96px;
+    width: 8.05271vw;
+    height: 7.02782vw;
     background: url('../images/content/recommend/hot_icon1.png') no-repeat 0 0;
 }
 
 .recommend-top a:nth-child(1):hover .picture span {
-    background-position-x: -110px;
+    background-position-x: -8.05271vw;
 }
 
 .recommend-top a:nth-child(2) {
-    width: 795px;
-    padding: 30px;
+    width: 58.19912vw;
+    padding: 2.19619vw;
 }
 
 .recommend-top a:nth-child(2) .picture span {
-    width: 537px;
-    height: 148px;
+    width: 39.31186vw;
+    height: 10.83455vw;
     background: url('../images/content/recommend/hot_icon2.png') no-repeat 0 0;
 }
 
 .recommend-top a:nth-child(2):hover .picture span {
-    background-position-x: -537px;
+    background-position-x: -39.31186vw;
 }
 
 .recommend-container .recommend-down a {
     flex: 1;
-    margin-right: 15px;
-    padding: 30px;
+    margin-right: 1.0981vw;
+    padding: 2.19619vw;
 }
 
 .recommend-container .recommend-down a:last-child {
@@ -594,8 +594,8 @@
 }
 
 .recommend-down a .picture span {
-    width: 110px;
-    height: 96px;
+    width: 8.05271vw;
+    height: 7.02782vw;
 }
 
 .recommend-down a:nth-child(1) .picture span {
@@ -611,18 +611,18 @@
 }
 
 .recommend-down a:hover .picture span {
-    background-position-x: -110px;
+    background-position-x: -8.05271vw;
 }
 
 .content .customer-feedback {
     width: 100%;
     background: #fff;
-    margin-bottom: -60px;
-    padding-bottom: 40px;
+    margin-bottom: -4.39239vw;
+    padding-bottom: 2.92826vw;
 }
 
 .customer-feedback .customer-feedback-container {
-    width: 1200px;
+    width: 87.84773vw;
     margin: 0 auto;
 }
 
@@ -631,9 +631,9 @@
 }
 
 .customer-feedback-container h3 {
-    padding-top: 30px;
-    font-size: 24px;
-    line-height: 44px;
+    padding-top: 2.19619vw;
+    font-size: 1.75695vw;
+    line-height: 3.22108vw;
     color: #666;
     text-align: center;
     font-weight: 600;
@@ -645,41 +645,41 @@
 
 .customer-feedback-slider li .left {
     display: flex;
-    width: 820px;
+    width: 60.02928vw;
     flex-direction: column;
 }
 
 .customer-feedback-slider li .left h4 {
-    font-size: 20px;
+    font-size: 1.46413vw;
     font-family: 'KaiTi';
     color: #666;
     text-align: center;
-    line-height: 98px;
+    line-height: 7.17423vw;
 }
 
 .customer-feedback-container .left .describe em {
     display: block;
-    font-size: 24px;
-    line-height: 44px;
+    font-size: 1.75695vw;
+    line-height: 3.22108vw;
 }
 
 .customer-feedback-container .left .describe span {
     display: block;
-    font-size: 14px;
+    font-size: 1.02489vw;
     color: #b2b2b2;
-    line-height: 34px;
+    line-height: 2.48902vw;
 }
 
 .customer-feedback-container .left .describe i {
     display: block;
-    font-size: 12px;
+    font-size: 0.87848vw;
     color: #b2b2b2;
-    line-height: 32px;
+    line-height: 2.34261vw;
 }
 
 .customer-feedback-slider li .left .describe {
-    height: 170px;
-    padding: 40px;
+    height: 12.4451vw;
+    padding: 2.92826vw;
     box-sizing: border-box;
     background: #f2f2f2;
 }
@@ -697,8 +697,8 @@
 
 .customer-feedback-slider li #next_btn {
     position: relative;
-    width: 120px;
-    height: 50px;
+    width: 8.78477vw;
+    height: 3.66032vw;
 }
 
 #next_btn {
@@ -707,14 +707,14 @@
     top: 50%;
     display: flex;
     transform: translateY(-50%);
-    width: 120px;
-    height: 50px;
+    width: 8.78477vw;
+    height: 3.66032vw;
 }
 
 #next_btn p {
-    width: 80px;
+    width: 5.85652vw;
     height: 100%;
-    line-height: 50px;
+    line-height: 3.66032vw;
     text-align: center;
     background: #28a449;
     color: #fff;
@@ -749,23 +749,23 @@
 
 .content .lawyer {
     width: 100%;
-    height: 450px;
+    height: 32.9429vw;
     background: url('../images/content/lawyer/lvshi.png') repeat-x;
 }
 
 .lawyer .lawyer-container {
-    width: 1200px;
+    width: 87.84773vw;
     margin: 0 auto;
 }
 
 .lawyer-container .lawyer-slider {
-    padding-top: 40px;
+    padding-top: 2.92826vw;
 }
 
 .lawyer-container h3 {
-    font-size: 24px;
-    line-height: 24px;
-    padding-top: 40px;
+    font-size: 1.75695vw;
+    line-height: 1.75695vw;
+    padding-top: 2.92826vw;
     color: #FFF;
     text-align: center;
     font-weight: 600;
@@ -788,31 +788,31 @@
 .lawyer-slider li a {
     display: flex;
     flex: 1;
-    height: 285px;
+    height: 20.86384vw;
     box-sizing: border-box;
-    padding: 25px 20px;
+    padding: 1.83016vw 1.46413vw;
     flex-direction: column;
     align-items: center;
 }
 
 .lawyer-slider .avatar img {
-    height: 150px;
-    width: 150px;
+    height: 10.98097vw;
+    width: 10.98097vw;
     border-radius: 50%;
 }
 
 .lawyer-slider a em {
-    margin-top: 15px;
+    margin-top: 1.0981vw;
     text-align: center;
-    font-size: 16px;
-    line-height: 46px;
+    font-size: 1.1713vw;
+    line-height: 3.3675vw;
     color: #dfdfdf;
 }
 
 .lawyer-slider a span {
     text-align: center;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.02489vw;
+    line-height: 1.75695vw;
     color: #dfdfdf;
 }
 
@@ -822,22 +822,22 @@
 }
 
 .complex .complex-title {
-    height: 282px;
-    padding-top: 40px;
+    height: 20.64422vw;
+    padding-top: 2.92826vw;
     box-sizing: border-box;
-    border-bottom: 2px solid #666666;
+    border-bottom: 0.14641vw solid #666666;
 }
 
 .complex-title .complex-title-container {
     display: flex;
-    width: 1200px;
+    width: 87.84773vw;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 .complex-title-container a {
     display: flex;
-    width: 180px;
+    width: 13.17716vw;
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -847,11 +847,11 @@
     position: relative;
     display: flex;
     transform: rotate(45deg);
-    width: 100px;
-    height: 100px;
+    width: 7.32064vw;
+    height: 7.32064vw;
     text-align: center;
-    line-height: 100px;
-    margin: 40px;
+    line-height: 7.32064vw;
+    margin: 2.92826vw;
     justify-content: center;
     align-items: center;
 }
@@ -880,29 +880,29 @@
 }
 
 .complex-title-container a .icon span {
-    width: 40px;
-    height: 40px;
+    width: 2.92826vw;
+    height: 2.92826vw;
     transform: rotate(-45deg);
-    background: url('../images/content/complex/complex_title.png') no-repeat 0 4px/200% auto;
+    background: url('../images/content/complex/complex_title.png') no-repeat 0 0.29283vw/200% auto;
     transition: background .3s;
 }
 
 .complex-title-container a:nth-child(2) .icon span {
-    height: 35px;
-    background-position-y: -37px;
+    height: 2.56223vw;
+    background-position-y: -2.70864vw;
 }
 
 .complex-title-container a:nth-child(3) .icon span {
-    background-position-y: -72px;
+    background-position-y: -5.27086vw;
 }
 
 .complex-title-container a:nth-child(4) .icon span {
-    height: 35px;
-    background-position-y: -112px;
+    height: 2.56223vw;
+    background-position-y: -8.19912vw;
 }
 
 .complex-title-container a p {
-    font-size: 16px;
+    font-size: 1.1713vw;
 }
 
 .complex-title-container a .arrow {
@@ -910,7 +910,7 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 20px;
+    border-width: 1.46413vw;
     border-color: transparent transparent #666 transparent;
 }
 
@@ -923,7 +923,7 @@
 }
 
 .complex-title-container a.active .icon span {
-    background-position-x: -40px;
+    background-position-x: -2.92826vw;
 }
 
 .complex-title-container a.active p {
@@ -935,8 +935,8 @@
 }
 
 .complex .complex-content {
-    width: 1200px;
-    height: 324px;
+    width: 87.84773vw;
+    height: 23.71889vw;
     margin: 0 auto;
 }
 
@@ -959,18 +959,18 @@
 }
 
 .complex-content>div:nth-child(1) {
-    padding-top: 30px;
+    padding-top: 2.19619vw;
     box-sizing: border-box;
 }
 
 .complex-content .complex-content-item .top-list {
-    margin-bottom: 30px;
+    margin-bottom: 2.19619vw;
 }
 
 .complex-content .complex-content-item .list li {
-    width: 216px;
-    height: 94px;
-    padding: 10px 14px;
+    width: 15.81259vw;
+    height: 6.88141vw;
+    padding: 0.73206vw 1.02489vw;
     box-sizing: border-box;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -998,7 +998,7 @@
 }
 
 .complex-content-item .list li a:hover {
-    background-position-x: -188px;
+    background-position-x: -13.76281vw;
 }
 
 .complex-content>div:nth-child(2) .news-container,
@@ -1008,51 +1008,51 @@
 }
 
 .complex-content>div:nth-child(2) .left-news {
-    margin-right: 20px;
+    margin-right: 1.46413vw;
 }
 
 .complex-content>div:nth-child(2) .news>a {
     display: block;
-    height: 25px;
-    padding-top: 10px;
+    height: 1.83016vw;
+    padding-top: 0.73206vw;
     box-sizing: border-box;
     text-align: right;
     color: #00a2ff;
-    font-size: 12px;
+    font-size: 0.87848vw;
 }
 
 .complex-content>div:nth-child(2) .news .item {
     display: flex;
-    height: 130px;
+    height: 9.51684vw;
     justify-content: space-between;
 }
 
 .complex-content .news>div:nth-child(2) {
-    margin-bottom: 15px;
+    margin-bottom: 1.0981vw;
 }
 
 .complex-content .news .item .picture img {
     display: block;
-    width: 131px;
-    height: 131px;
+    width: 9.59004vw;
+    height: 9.59004vw;
 }
 
 .complex-content .news .item .describe {
-    padding: 10px 10px 10px 14px;
+    padding: 0.73206vw 0.73206vw 0.73206vw 1.02489vw;
     background: #f2f2f2;
 }
 
 .complex-content .news .item .describe i {
     display: block;
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 0.87848vw;
+    line-height: 1.61054vw;
     color: #666;
 }
 
 .complex-content .news .item .describe h5 {
-    width: 435px;
-    font-size: 16px;
-    line-height: 26px;
+    width: 31.8448vw;
+    font-size: 1.1713vw;
+    line-height: 1.90337vw;
     color: #333;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1065,8 +1065,8 @@
 
 .complex-content .news .item .describe a {
     display: block;
-    font-size: 12px;
-    line-height: 28px;
+    font-size: 0.87848vw;
+    line-height: 2.04978vw;
     color: #00a2ff;
 }
 
@@ -1076,44 +1076,44 @@
 }
 
 .complex-content-item .top-honor {
-    padding-top: 25px;
+    padding-top: 1.83016vw;
     box-sizing: border-box;
 }
 
 .complex-content-item .honor li {
     display: flex;
     flex: 1;
-    height: 150px;
+    height: 10.98097vw;
     align-items: center;
     justify-content: space-between;
 }
 
 .honor li .picture {
-    margin-right: 10px;
+    margin-right: 0.73206vw;
 }
 
 .honor li .picture img {
-    width: 160px;
+    width: 11.71303vw;
     height: auto;
 }
 
 .honor li .describe {
-    padding-right: 10px;
+    padding-right: 0.73206vw;
 }
 
 .honor li .describe h5 {
-    line-height: 25px;
+    line-height: 1.83016vw;
 }
 
 .honor li .describe p {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 0.87848vw;
+    line-height: 1.61054vw;
     color: #666;
     text-indent: 2em;
 }
 
 .complex-content>div:nth-child(4) {
-    padding-top: 40px;
+    padding-top: 2.92826vw;
     box-sizing: border-box;
 }
 
@@ -1123,43 +1123,43 @@
 
 .complex-content-item .contact>span {
     display: block;
-    width: 220px;
-    height: 32px;
-    margin-bottom: 15px;
+    width: 16.10542vw;
+    height: 2.34261vw;
+    margin-bottom: 1.0981vw;
     background: url('../images/content/complex/contact/telephone.png') no-repeat;
 }
 
 .complex-content-item .contact .text {
     display: flex;
-    width: 630px;
+    width: 46.12006vw;
     justify-content: space-between;
 }
 
 .complex-content-item .contact .text .internet p {
-    width: 220px;
-    font-size: 12px;
-    line-height: 42px;
+    width: 16.10542vw;
+    font-size: 0.87848vw;
+    line-height: 3.07467vw;
 }
 
 .complex-content-item .contact .text>p {
-    font-size: 12px;
-    line-height: 42px;
+    font-size: 0.87848vw;
+    line-height: 3.07467vw;
 }
 
 .complex-content-item .QRcode {
     display: flex;
-    width: 570px;
+    width: 41.72767vw;
     height: 100%;
     align-items: center;
     justify-content: flex-end;
 }
 
 .complex-content-item .QRcode>div {
-    margin-left: 25px;
+    margin-left: 1.83016vw;
 }
 
 .complex-content-item .QRcode p {
-    line-height: 32px;
-    font-size: 12px;
+    line-height: 2.34261vw;
+    font-size: 0.87848vw;
     text-align: center;
 }
