@@ -1,6 +1,5 @@
 (function($) {
     $(function() {
-        initFont();
         mainSlider();
         //服务轮播
         new ZoomPic('service');
@@ -9,11 +8,6 @@
         complexTab();
     });
 
-    function initFont() {
-        var _html = $('html'),
-            view_width = _html.width();
-        view_width > 768 ? _html.css('font-size', view_width / 19.2 + 'px') : null;
-    }
     //主轮播
     function mainSlider() {
         $('.main-slider .bxslider').bxSlider({
