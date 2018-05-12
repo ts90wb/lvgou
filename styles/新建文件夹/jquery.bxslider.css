@@ -4,7 +4,7 @@
 ===================================*/
 .bx-wrapper {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 4.39239vw;
   padding: 0;
   *zoom: 1;
   -ms-touch-action: pan-y;
@@ -30,21 +30,21 @@ ul.bxslider {
 /** THEME
 ===================================*/
 .bx-wrapper {
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
+  -moz-box-shadow: 0 0 0.36603vw #ccc;
+  -webkit-box-shadow: 0 0 0.36603vw #ccc;
+  box-shadow: 0 0 0.36603vw #ccc;
+  border: 0.36603vw solid #fff;
   background: #fff;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
+  bottom: -2.19619vw;
   width: 100%;
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
-  min-height: 50px;
+  min-height: 3.66032vw;
   background: url('images/bx_loader.gif') center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
@@ -60,19 +60,19 @@ ul.bxslider {
   font-family: Arial;
   font-weight: bold;
   color: #666;
-  padding-top: 20px;
+  padding-top: 1.46413vw;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: #666;
-  text-indent: -9999px;
+  text-indent: -731.99122vw;
   display: block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
+  width: 0.73206vw;
+  height: 0.73206vw;
+  margin: 0 0.36603vw;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 0.36603vw;
+  -webkit-border-radius: 0.36603vw;
+  border-radius: 0.36603vw;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
@@ -92,29 +92,29 @@ ul.bxslider {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 10px;
-  background: url('images/controls.png') no-repeat 0 -32px;
+  left: 0.73206vw;
+  background: url('images/controls.png') no-repeat 0 -2.34261vw;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
   background-position: 0 0;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
-  background: url('images/controls.png') no-repeat -43px -32px;
+  right: 0.73206vw;
+  background: url('images/controls.png') no-repeat -3.14788vw -2.34261vw;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
-  background-position: -43px 0;
+  background-position: -3.14788vw 0;
 }
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
-  margin-top: -16px;
+  margin-top: -1.1713vw;
   outline: 0;
-  width: 32px;
-  height: 32px;
-  text-indent: -9999px;
+  width: 2.34261vw;
+  height: 2.34261vw;
+  text-indent: -731.99122vw;
   z-index: 9999;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
@@ -126,31 +126,31 @@ ul.bxslider {
 }
 .bx-wrapper .bx-controls-auto .bx-start {
   display: block;
-  text-indent: -9999px;
-  width: 10px;
-  height: 11px;
+  text-indent: -731.99122vw;
+  width: 0.73206vw;
+  height: 0.80527vw;
   outline: 0;
-  background: url('images/controls.png') -86px -11px no-repeat;
-  margin: 0 3px;
+  background: url('images/controls.png') -6.29575vw -0.80527vw no-repeat;
+  margin: 0 0.21962vw;
 }
 .bx-wrapper .bx-controls-auto .bx-start:hover,
 .bx-wrapper .bx-controls-auto .bx-start.active,
 .bx-wrapper .bx-controls-auto .bx-start:focus {
-  background-position: -86px 0;
+  background-position: -6.29575vw 0;
 }
 .bx-wrapper .bx-controls-auto .bx-stop {
   display: block;
-  text-indent: -9999px;
-  width: 9px;
-  height: 11px;
+  text-indent: -731.99122vw;
+  width: 0.65886vw;
+  height: 0.80527vw;
   outline: 0;
-  background: url('images/controls.png') -86px -44px no-repeat;
-  margin: 0 3px;
+  background: url('images/controls.png') -6.29575vw -3.22108vw no-repeat;
+  margin: 0 0.21962vw;
 }
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .bx-wrapper .bx-controls-auto .bx-stop.active,
 .bx-wrapper .bx-controls-auto .bx-stop:focus {
-  background-position: -86px -33px;
+  background-position: -6.29575vw -2.41581vw;
 }
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
@@ -159,7 +159,7 @@ ul.bxslider {
 }
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   right: 0;
-  width: 35px;
+  width: 2.56223vw;
 }
 /* IMAGE CAPTIONS */
 .bx-wrapper .bx-caption {
@@ -175,5 +175,5 @@ ul.bxslider {
   font-family: Arial;
   display: block;
   font-size: .85em;
-  padding: 10px;
+  padding: 0.73206vw;
 }
